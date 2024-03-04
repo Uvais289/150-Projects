@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.container{
+    display: flex;
+    width: 600px;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
+    background-color: darkslateblue;
+    box-shadow: 8px 8px black;
+    color: white;
+    padding: 5% 0%;
+}
+
+#currDate{
+    font-size: 40px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+input{
+    font-size: 20px;
+}
