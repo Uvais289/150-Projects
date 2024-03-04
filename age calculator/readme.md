@@ -31,4 +31,4 @@ git clone https://github.com/Ayushparikh-code/Web-dev-mini-projects.git
 
 <br>
 
-## Happy Coding!
+## Happy Coding! 
