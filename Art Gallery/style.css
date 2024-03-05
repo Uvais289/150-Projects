@@ -1,0 +1,38 @@
+*{
+    font-family: "Raleway", Arial,sans-serif;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.about-block{
+    width: 60vw;
+    margin: auto;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.heading{
+    font-size: 350px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    letter-spacing: 50px;
+}
