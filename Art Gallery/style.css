@@ -36,3 +36,53 @@ a{
     padding-bottom: 20px;
     letter-spacing: 50px;
 }
+
+.description{
+    font-size: 15px;
+    color: grey;
+    padding: 30px;
+    letter-spacing: 20px;
+}
+
+.input{
+    margin: 20px;
+    text-align: center;
+}
+
+.red{
+    font-size: 20px;
+    color: red;
+    padding: 10px;
+}
+
+input{
+    width: 60vw;
+    height: 35px;
+}
+
+span{
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button{
+    width:61vw;
+    height:40px;
+    border:none;
+    font-size:15px;
+    color:white;
+    background:rgb(39, 36, 36);
+    }
+    .button:hover{
+        color:black;
+        background:lightgrey;
+        } 
+
+        .footer{
+            width:95vw;
+            height:5vw;
+            text-align:center;
+            color:grey;
+            padding:20px;
+        }
