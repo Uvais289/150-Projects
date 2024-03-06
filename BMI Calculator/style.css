@@ -99,3 +99,34 @@ th {
     margin-top: 40px;
     padding-top: 50px; /* Add margin to create space between the BMI calculator and the chart */
   }
+
+  /* Footer styles */
+.footer {
+    background-color: #333; /* Adjust background color as needed */
+    color: #fff; /* Adjust text color as needed */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center;
+  }
+  
+  .footer__title {
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  .footer__social {
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  .footer__social a {
+    display: inline-block;
+    margin-right: 10px; /* Adjust margin as needed */
+    color: #fff; /* Adjust icon color as needed */
+    font-size: 24px; /* Adjust icon size as needed */
+  }
+  
+  /* Adjust icon size for smaller screens */
+  @media screen and (max-width: 768px) {
+    .footer__social a {
+      font-size: 20px;
+    }
+  }
+  
