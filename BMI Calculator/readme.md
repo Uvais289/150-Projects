@@ -28,4 +28,4 @@ git clone https://github.com/Ayushparikh-code/Web-dev-mini-projects.git
 - Start Calculatings!
 
 <h3> Demo </h3>
-<img src="https://github.com/ayushseth07/Web-dev-mini-projects/blob/patch/BMI%20Calculator%20(JS)/snap.PNG"/>
+<img src="https://github.com/Uvais289/150-Projects/blob/main/BMI%20Calculator/snap.PNG"/>
