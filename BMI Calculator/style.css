@@ -23,6 +23,7 @@ body {
   transform: translate(-50%, -50%);
   padding: 20px;
   border-radius: 10px;
+  padding-bottom: 20px;
 }
 h2 {
   font-size: 30px;
@@ -87,8 +88,14 @@ th {
 
 td,
 th {
-  padding: 10px;
+    padding-top: 20px;
+  padding: 20px;
   border: 1px solid #000;
   text-align: center;
   font-size: 18px;
 }
+
+.chart {
+    margin-top: 40px;
+    padding-top: 50px; /* Add margin to create space between the BMI calculator and the chart */
+  }
