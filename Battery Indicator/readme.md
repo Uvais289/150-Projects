@@ -16,7 +16,7 @@ This is a battery indicator app which is used to know battery percentage of the 
 - Download or clone the repository
 
 ```
-git clone https://github.com/Ayushparikh-code/Web-dev-mini-projects.git
+git clone  https://github.com/Uvais289/150-Projects.git
 ```
 
 - Go to the directory
