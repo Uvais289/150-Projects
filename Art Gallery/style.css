@@ -71,11 +71,10 @@ background:rgb(39, 36, 36);
     background:lightgrey;
     } 
 
-     
-    .footer{
+.footer{
         width:95vw;
         height:5vw;
         text-align:center;
         color:grey;
         padding:20px;
-    }
+ }
