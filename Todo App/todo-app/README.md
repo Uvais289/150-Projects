@@ -21,7 +21,7 @@ This is a simple Todo application built using React. It allows users to add, del
 
 ## Getting Started
 
-1. Clone the repository: 
+1. Clone the repository: https://github.com/Uvais289/150-Projects.git
 
 
 2. Install dependencies:
