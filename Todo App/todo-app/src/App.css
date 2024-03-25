@@ -1,0 +1,24 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form input,
+.form select,
+.form button {
+  margin: 0 5px;
+}
+
+.filters {
+  margin: 20px 0;
+}
+
+.todos {
+  margin-top: 20px;
+}
+
+.todo {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
