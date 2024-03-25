@@ -24,14 +24,16 @@ This is a simple Todo application built using React. It allows users to add, del
 1. Clone the repository: 
 
 
-2. Install dependencies: npm install,  npm install axios react-datepicker react-dropdown react-datepicker/dist/react-datepicker.css react-dropdown/style.css
+2. Install dependencies:
+              npm install,
+              npm install axios react-datepicker react-dropdown react-datepicker/dist/react-datepicker.css react-dropdown/style.css
 
 
   
-3. Start the development server:3000
+4. Start the development server:3000
 
 
-4. Open your browser and navigate to `http://localhost:3000` to view the app.
+5. Open your browser and navigate to `http://localhost:3000` to view the app.
 
 ## Folder Structure
 
