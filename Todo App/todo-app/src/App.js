@@ -19,11 +19,13 @@ function App() {
   });
   const [sortBy, setSortBy] = useState('asc');
   const [page, setPage] = useState(1);
+  // eslint-disable-next-line
   const [pageSize, setPageSize] = useState(5);
 
   useEffect(() => {
     fetchTodos();
-  }, [page, pageSize]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [page, sortBy]);
 
   const fetchTodos = async () => {
     try {

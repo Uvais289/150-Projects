@@ -1,5 +1,5 @@
 .container {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
   font-family: Arial, sans-serif;
@@ -18,26 +18,47 @@ h1 {
 
 .form input,
 .form select,
-.form button {
+.form button,
+.react-datepicker__input-container input {
   margin: 5px;
-  padding: 5px;
+  padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
+.form input[type="text"],
+.form select {
+  flex: 1;
+}
+
+.form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
 .filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 20px;
 }
 
 .todos {
-  display: grid;
-  gap: 10px;
+  margin-bottom: 20px;
 }
 
 .todo {
   border: 1px solid #ccc;
-  padding: 10px;
   border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
 }
 
 .todo h3 {
@@ -48,30 +69,33 @@ h1 {
   margin: 5px 0;
 }
 
-button {
-  cursor: pointer;
-  padding: 5px 10px;
-  background-color: #007bff;
+.todo button {
+  background-color: #dc3545;
   color: white;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
 }
 
-button:hover {
-  background-color: #0056b3;
+.todo button:hover {
+  background-color: #c82333;
 }
 
-.react-datepicker__input-container input {
-  width: 180px;
-  margin: 5px;
-  padding: 5px;
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 8px 12px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  cursor: pointer;
 }
 
-.react-dropdown-control {
-  width: 150px;
-  margin: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+.pagination button:hover {
+  background-color: #f0f0f0;
 }
