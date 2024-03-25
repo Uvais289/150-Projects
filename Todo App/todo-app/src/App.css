@@ -1,23 +1,22 @@
-/* General styles */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
+/* Reset CSS */
+body, h1, p, input, select, button, .container {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 .container {
   max-width: 800px;
   margin: 20px auto;
-  background-color: #fff;
-  border-radius: 8px;
   padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
 }
 
 h1 {
   text-align: center;
-  color: #333;
+  margin-bottom: 20px;
+  color: #343a40;
 }
 
 .form {
@@ -25,20 +24,24 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .form input,
-.form select {
-  flex: 1;
+.form select,
+.form button {
   padding: 10px;
-  margin: 5px;
-  border: 1px solid #ccc;
+  margin: 5px 0;
+  border: 1px solid #ced4da;
   border-radius: 5px;
 }
 
+.form input[type="text"],
+.form select {
+  flex: 1;
+}
+
 .form button {
-  padding: 10px 20px;
-  margin: 5px;
   background-color: #007bff;
   color: #fff;
   border: none;
@@ -54,28 +57,34 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
+}
+
+.filters .Dropdown-control {
+  width: 200px;
 }
 
 .todos {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .todo {
-  border: 1px solid #ccc;
+  border: 1px solid #ced4da;
   border-radius: 5px;
   padding: 15px;
   margin-bottom: 10px;
-  background-color: #f9f9f9;
+  background-color: #fff;
 }
 
 .todo h3 {
   margin-top: 0;
-  color: #333;
+  margin-bottom: 10px;
+  color: #343a40;
 }
 
 .todo p {
   margin: 5px 0;
-  color: #666;
+  color: #6c757d;
 }
 
 .todo button {
@@ -101,12 +110,13 @@ h1 {
 .pagination button {
   padding: 8px 16px;
   margin: 0 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #6c757d;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: #fff;
   cursor: pointer;
 }
 
-.pagination button:hover {
+.pagination button:disabled {
   background-color: #e9ecef;
+  cursor: not-allowed;
 }
