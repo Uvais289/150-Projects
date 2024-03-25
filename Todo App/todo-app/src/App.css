@@ -1,39 +1,46 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
   padding: 20px;
-  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
   text-align: center;
+  color: #333;
 }
 
 .form {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 20px;
+  align-items: center;
 }
 
 .form input,
-.form select,
-.form button,
-.react-datepicker__input-container input {
+.form select {
+  flex: 1;
+  padding: 10px;
   margin: 5px;
-  padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
-.form input[type="text"],
-.form select {
-  flex: 1;
-}
-
 .form button {
+  padding: 10px 20px;
+  margin: 5px;
   background-color: #007bff;
-  color: white;
+  color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -47,11 +54,10 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
 }
 
 .todos {
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .todo {
@@ -59,23 +65,26 @@ h1 {
   border-radius: 5px;
   padding: 15px;
   margin-bottom: 10px;
+  background-color: #f9f9f9;
 }
 
 .todo h3 {
   margin-top: 0;
+  color: #333;
 }
 
 .todo p {
   margin: 5px 0;
+  color: #666;
 }
 
 .todo button {
+  padding: 5px 10px;
   background-color: #dc3545;
-  color: white;
+  color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  padding: 5px 10px;
 }
 
 .todo button:hover {
@@ -86,16 +95,18 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 .pagination button {
+  padding: 8px 16px;
   margin: 0 5px;
-  padding: 8px 12px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  background-color: #f9f9f9;
   cursor: pointer;
 }
 
 .pagination button:hover {
-  background-color: #f0f0f0;
+  background-color: #e9ecef;
 }

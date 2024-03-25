@@ -4,7 +4,7 @@ import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
-import './App.css';
+import './index.css';
 
 function App() {
   const [todos, setTodos] = useState([]);
