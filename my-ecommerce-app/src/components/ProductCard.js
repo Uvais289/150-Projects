@@ -1,3 +1,4 @@
+// ProductCard.js
 import React from 'react';
 import { Box, Heading, Text, Link } from '@chakra-ui/react';
 

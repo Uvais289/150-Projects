@@ -5,7 +5,7 @@ import Login from './components/Login';
 import Products from './components/Product';
 import SingleProduct from './components/SingleProduct';
 import Logout from './components/Logout';
- 
+import AuthContextProvider from './components/AuthContext'; 
 
 export const AuthContext = createContext(null);
 
@@ -37,18 +37,19 @@ function App() {
 
   return (
     <ChakraProvider>
-      <AuthContext.Provider value={value}>
+      <AuthContextProvider>
         <Router>
           <Routes>
             <Route path="/login" element={<Login />} />
             <Route path="/logout" element={<Logout />} />
-            <Route path="/" element={<Products />} /> {/* Assuming Products component is accessible */}
-            <Route path="/products/:product_id" element={<SingleProduct />} />
+            <Route path="/" element={<Products />} />
+            <Route path="/products/:productId" element={<SingleProduct />} />
+            {/* Other routes */}
           </Routes>
         </Router>
-      </AuthContext.Provider>
+      </AuthContextProvider>
     </ChakraProvider>
   );
 }
- 
+
 export default App;

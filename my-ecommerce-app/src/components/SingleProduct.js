@@ -6,16 +6,21 @@ import { fetchProduct } from '../utils/api';
 function SingleProduct() {
   const [product, setProduct] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
-  const { product_id } = useParams();
+  const { productId } = useParams();
 
   useEffect(() => {
     const fetchData = async () => {
-      const data = await fetchProduct(product_id); // Call the fetchProduct function
-      setProduct(data);
-      setIsLoading(false);
+      try {
+        const data = await fetchProduct(productId);
+        setProduct(data);
+        setIsLoading(false);
+      } catch (error) {
+        console.error('Error fetching product:', error);
+        setIsLoading(false);
+      }
     };
     fetchData();
-  }, [product_id]); // Re-run useEffect when product_id changes
+  }, [productId]);
 
   return (
     <Box p={4}>

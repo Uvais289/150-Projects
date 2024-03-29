@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Box, Heading, VStack, FormLabel, FormControl, Input, Button, Text } from '@chakra-ui/react';
-// No import for AuthContext here (not used in Login)
 
 function Login() {
   const [username, setUsername] = useState('');
