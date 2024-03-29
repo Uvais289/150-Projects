@@ -4,7 +4,7 @@ export const fetchProducts = async () => {
 
 export const fetchProduct = async (productId) => {
   try {
-    const response = await fetch(`https://your-api-endpoint.com/products/${productId}`);
+    const response = await fetch(`https://reqres.in/${productId}`);
     if (response.ok) {
       const data = await response.json();
       return data; // Assuming the API returns a single product object
